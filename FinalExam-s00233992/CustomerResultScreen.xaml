@@ -1,0 +1,20 @@
+﻿<Window x:Class="FinalExam_s00233992.CustomerResultScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalExam_s00233992"
+        mc:Ignorable="d"
+        Title="CustomerResultScreen" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="65,64,0,0" TextWrapping="Wrap" Text="Matching Customers" VerticalAlignment="Top" FontWeight="Bold" FontSize="22"/>
+        <ListBox x:Name="listBoxCustomers" HorizontalAlignment="Left" Height="184" Margin="65,117,0,0" VerticalAlignment="Top" Width="318"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="564,72,0,0" TextWrapping="Wrap" Text="Create New Customer" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="564,117,0,0" TextWrapping="Wrap" Text="Enter Name" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="564,154,0,0" TextWrapping="Wrap" Text="Phone Number" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="564,191,0,0" TextWrapping="Wrap" Text="Date of Booking" VerticalAlignment="Top" Width="120"/>
+        <DatePicker HorizontalAlignment="Left" Margin="689,191,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
